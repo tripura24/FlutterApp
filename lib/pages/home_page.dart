@@ -11,7 +11,11 @@ class HomePage extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          child: const Text("Welcome to EmotionalGram!"),
+          child: const Text(
+            "Welcome to EmotionalGram!",
+            style: TextStyle(
+                fontSize: 30, color: Colors.blue, fontWeight: FontWeight.bold),
+          ),
         ),
       ),
       drawer: Drawer(),
